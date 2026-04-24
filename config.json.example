@@ -1,0 +1,25 @@
+{
+  "_comment": "V8 配置文件 - 复制为 config.json 后填写你自己的值",
+
+  "paths": {
+    "_comment_mac": "macOS 默认路径",
+    "msg_file_dir": "~/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_your_account_id/msg/file",
+    "_comment_win": "Windows 路径示例: C:\\\\Users\\\\YourName\\\\Documents\\\\WeChat Files\\\\wxid_xxx\\\\FileStorage\\\\File",
+    "papers_root": "~/Documents/WeChatPapers",
+    "academic_dir": "Academic_Papers",
+    "other_dir": "Other_PDFs",
+    "log_file": "monitor.log",
+    "hash_store": ".hash_store.txt"
+  },
+
+  "polling_interval": 3,
+  "notification_cooldown": 60,
+  "enable_notifications": true,
+
+  "gui": {
+    "minimize_to_tray": true,
+    "log_refresh_ms": 500,
+    "window_width": 800,
+    "window_height": 600
+  }
+}

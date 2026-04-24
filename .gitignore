@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Local config (contains wxid and paths)
+config.json
+
+# Runtime data
+papers/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
